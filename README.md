@@ -1,10 +1,9 @@
 # Single cell analysis coupled with TCR sequencing of gastric tumor reveals complex intercellular interaction and an alternative T cell exhaustion trajectory
 Code for the central analyses in the study
 ## Environment 
-Red Hat 4.8.5-16, Linux version 3.10.0
-R version 3.5.1	
-Python version 3.6.7
-seaborn-0.11.1
+Red Hat 4.8.5-16, Linux version 3.10.0; 
+R version 3.5.1; 
+Python version 3.6.7; 
 ## Install software
 This should take less than an hour, with fast internet speed (e.g. 100 Mbps).
 
@@ -18,17 +17,31 @@ pip install scanpy==1.7.2
 ```
 ### Install python package scvelo 
 ```
-pip install scvelo=0.2.3
+pip install scvelo==0.2.3
 ```
 ### Install python package pySCENIC
-    pip install pyscenic==0.11.0
+```
+pip install pyscenic==0.11.0
+```
 ### Install R package InferCNV 
-    if (!requireNamespace("BiocManager", quietly = TRUE))
-    install.packages("BiocManager")
-    BiocManager::install("infercnv")
-### Insatll software CellPhoneDB v2.06
-    pip install cellphonedb==2.06
-	
+```
+if (!requireNamespace("BiocManager", quietly = TRUE))
+install.packages("BiocManager")
+BiocManager::install("infercnv")
+```
+### Insatll software CellPhoneDB v2.00
+```
+pip install cellphonedb==2.00
+```	
+## Demo data
+Files in the ./Data folder are small real data from the study.
+The expression matrix of dendritic cells (DCs) can be download from the release: DC_exp.csv
+
+## Runing the code
+The scripts with .py and .r should be tested in an interactive console.
+Instructions, expected outputs, and expected runtime are annotated in the scripts.
+The way to run on full data is the same as that for the demo data.
+We recommend to use absolute paths for files in the scripts.
 
 ## Possible issue
 
@@ -37,8 +50,3 @@ pip install scvelo=0.2.3
 pip uninstall umap-learn
 conda install umap-learn
 ```
-
-
-## Runing the code
-	The scripts with .py and .r should be tested in an interactive console.
-	The run time for demo in 'Data' should be several minutes for each analysis.
