@@ -1,11 +1,12 @@
 # Single cell analysis coupled with TCR sequencing of gastric tumor reveals complex intercellular interaction and an alternative T cell exhaustion trajectory
-Code for the central analyses in the study
+Code for the central analyses in the study.
 ## Environment 
+There is no required non-standard hardware.  
 Red Hat 4.8.5-16, Linux version 3.10.0; 
 R version 3.5.1; 
 Python version 3.6.7; 
 ## Install software
-This should take less than an hour, with fast internet speed (e.g. 100 Mbps).
+This should take less than half an hour, with fast internet speed (e.g. 100 Mbps).
 
 ### Install basic python packages 
 ```
