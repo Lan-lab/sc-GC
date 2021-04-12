@@ -1,5 +1,5 @@
-# Tumour Heterogeneity and Intercellular Networks of Nasopharyngeal Carcinoma at Single Cell Resolution
-Nasopharyngeal cancer is a diverse cancer characterised by a heterogeneous microenvironment. Here, we used single cell sequencing to analyse the tumour microenvironment 10 nasopharyngeal and identify 53 different cell types including tolerogenic dendritic cells.
+# Single cell analysis coupled with TCR sequencing of gastric tumor reveals complex intercellular interaction and an alternative T cell exhaustion trajectory
+Code for the central analyses in the study
 ## Environment 
 Red Hat 4.8.5-16, Linux version 3.10.0
 R version 3.5.1	
