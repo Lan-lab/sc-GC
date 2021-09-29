@@ -53,6 +53,9 @@ sc_scaled = sc.pp.scale(sc_data, max_value=10,copy=True)
 sc.tl.pca(sc_scaled,svd_solver='arpack', use_highly_variable = True)
 sc.pp.neighbors(sc_scaled, n_pcs=10, n_neighbors=500)
 sc.tl.umap(sc_scaled, init_pos=sc_scaled.obsm['X_pca'][:,:2] *0.0001)
+# Clustering with leiden
+sc.tl.leiden(sc_scaled, resolution=1, key_added = 'cluster' )
+# Visualization with different features
 sc.pl.umap(sc_scaled, color=['tissue'],size=1)
 sc.pl.umap(sc_scaled, color=['patient'],size=1)
 sc.pl.umap(sc_scaled, color=['cluster'],size=1)
