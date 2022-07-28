@@ -54,3 +54,6 @@ We recommend to use absolute paths for files in the scripts.
 pip uninstall umap-learn
 conda install umap-learn
 ```
+
+### Zenodo DOI
+[![DOI](https://zenodo.org/badge/356777147.svg)](https://zenodo.org/badge/latestdoi/356777147)
