@@ -36,7 +36,10 @@ pip install cellphonedb==2.00
 ```	
 ## Demo data
 Files in the ./Data folder are small real data from the study.  
-The expression matrix of dendritic cells (DCs) can be download from the release: DC_exp.csv
+
+## Full data
+The expression matrices and annotations can be download from:
+https://ngdc.cncb.ac.cn/omix/release/OMIX001073
 
 ## Runing the code
 The scripts with .py and .r should be tested in an interactive console.  
