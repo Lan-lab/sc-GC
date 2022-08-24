@@ -57,3 +57,6 @@ conda install umap-learn
 
 ### Zenodo DOI
 [![DOI](https://zenodo.org/badge/356777147.svg)](https://zenodo.org/badge/latestdoi/356777147)
+
+### Publication
+Sun, K., Xu, R., Ma, F. et al. scRNA-seq of gastric tumor shows complex intercellular interaction with an alternative T cell exhaustion trajectory. Nat Commun 13, 4943 (2022). https://doi.org/10.1038/s41467-022-32627-z
